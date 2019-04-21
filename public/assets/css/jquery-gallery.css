@@ -1,0 +1,96 @@
+
+img[data-gallery] { cursor: pointer; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.imgActive img {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.prev,
+.next,
+.close {
+  transition: 0.3s ease all;
+  display: inline-block;
+  color: white;
+  font-size: 6rem;
+  opacity: 0.2;
+  z-index: 1000;
+}
+
+.prev:hover,
+.next:hover,
+.close:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.prev,
+.next {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+}
+
+.prev { left: 100px; }
+
+.next { right: 100px; }
+
+.close {
+  font-size: 4rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.coverImgOverlay {
+  bottom: 20px;
+  height: 100px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 3000%;
+  z-index: 1000;
+}
+
+.coverImgOverlay span {
+  display: inline-block;
+  height: 100px;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+}
+
+.coverImgOverlay img {
+  transition: 0.3s ease all;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-height: 100%;
+  min-width: 100%;
+  opacity: 0.2;
+  width: auto;
+}
+
+.coverImgOverlay img:hover { opacity: 1 !important; }

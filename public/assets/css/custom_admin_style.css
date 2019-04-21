@@ -1,0 +1,416 @@
+.has-error, .error {
+    color: #e66464;
+    font-size: 11px;
+    font-family: verdana;
+
+}
+.form-control {
+    padding: .45rem .9rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+/* Event calender style */
+.fc-event {
+    border: 5px solid #3a8f25;
+    background-color: #3a8f25;
+}
+.fc-time {
+    display: none;
+}
+
+/* logo style */
+.logo img {
+    max-width: 50%;
+    margin-left: -25px;
+    margin-right: auto;
+}
+.top_link{
+    vertical-align: middle;
+    line-height: 50px
+}
+
+.card_text {
+    background: #edefec; padding: 5px;
+}
+
+
+.sweet-alert .sa-icon {
+    margin: 25px auto !important;
+}
+
+.import_notice {
+    padding: 10px;
+    background-color: #686a67;
+    color: #fff;
+}
+
+.import_notice p {
+    font-weight: 700;
+    font-size: 15px;
+}
+.import_notice li {
+    line-height: 22px;
+}
+.import_notice span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.short_inf {
+    line-height: 25px;
+}
+/* end logo */
+
+/* usermenu */
+
+.navbar-nav > .user-menu > .dropdown-menu {
+    width: auto;
+}
+
+/* end userment */
+
+#ui-datepicker-div {
+    z-index: 9999 !important;
+}
+
+.ui-datepicker {
+    background: #fff !important;
+}
+
+.panel-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+
+.fade-scale {
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.fade-scale.in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.panel-title button {
+    margin-left: 20px;
+}
+
+.sidebar-menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* border-bottom: 1px solid #F0F0F0; */
+}
+
+thead, tfoot {
+    background: #FBFBFB;
+    color: #1990aa;
+}
+
+.text_filter {
+    width: 70%;
+    min-width: 500px;
+}
+
+.progress {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    border: 1px solid #DDD;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.bar {
+    background: #12CC1A;
+    height: 20px;
+    width: 0%;
+    /* transition animation */
+    -webkit-transition: width .3s;
+    -moz-transition: width .3s;
+    transition: width .3s;
+
+}
+
+.percent {
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    left: 48%;
+    color: #333;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.modal-header {
+    background-color: rgba(206, 206, 206, 0.18);
+    color: #111;
+    font-size: 17px;
+
+}
+
+.modal-body {
+    background-color: rgba(245, 245, 245, 0.2);
+}
+
+.modal-footer {
+    background-color: rgba(225, 225, 225, 0.8)
+}
+
+.modal-header .close {
+    margin-top: -3px;
+    color: #000;
+    background: #fff;
+    padding: 3px 7px;
+    font-weight: bold;
+    opacity: 0.6;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.modal-header .close:hover {
+    margin-top: -2px;
+    color: #000;
+    background: cornsilk;
+    padding: 3px 7px;
+    font-weight: bold;
+    opacity: 0.9;
+    border: 0;
+
+}
+
+.modal {
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.footer {
+    bottom: 0;
+}
+
+label {
+    font: 600 13px/14px 'Open Sans', sans-serif;
+    color: rgb(95, 95, 95);
+}
+
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+    background: #846733;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #846733;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: .7em;
+    border-collapse: collapse;
+    font-family: verdana;
+    margin: 0 0 .4em;
+    color: #000000;
+    background: #FDF8E4;
+}
+
+.ui-datepicker td {
+
+    border: 0;
+    padding: 1px;
+
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: .8em;
+    text-align: right;
+    text-decoration: none;
+}
+
+.datepicker {
+    z-index: 111151 !important;
+}
+
+.select2-container {
+    width: 100% !important;
+    padding: 0px;
+}
+
+.select2 {
+    padding-right: 20pt;
+    text-indent: 2pt;
+    text-align: left;
+    vertical-align: middle;
+    box-shadow: inset 0 0 3px #606060;
+    border: 0px solid #acacac;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*IMPORTANT*/
+    cursor: pointer;
+    outline: none;
+}
+
+.select2-selection--single {
+    border: 1px solid #aaa;
+    border-radius: 1px;
+    min-height: 35px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+    .fixed .content-wrapper, .fixed .right-side {
+        margin-top: 20px;
+    }
+    .top_link{
+        font-size: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+    .top_link{
+        font-size: 12px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .top_link{
+        font-size: 12px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+    #loginForm {
+        margin-top: 160px;
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+    #loginForm {
+        margin-top: 160px;
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    .navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+        color: #111;
+        right: 0;
+
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    #loginForm {
+        margin-top: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .skin-green-light .main-header .navbar .dropdown-menu li a {
+        color: #666;
+    }
+
+    .main-header .logo {
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+    #loginForml {
+        margin-top: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+    #loginForm {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+}
+
+#disqus_thread {
+    position: relative;
+}
+
+#disqus_thread:after {
+    content: "";
+    display: block;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: white;
+}
+
+.acceptance-wrapper {
+    display: none;
+}
+
+
+#react-paginate ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#react-paginate li {
+    display: inline-block;
+}
